@@ -2,36 +2,6 @@ package poker;
 
 import java.util.Arrays;
 
-/* The PokerHandEvaluator class represents methods of the types of combinations
- * a hand have at a certain time.
- * 
- * The class have public and private methods and one instance variable.
- * The private methods are made to avoid redundancy in creating the
- * public methods.
- * 
- * Private methods in this class:
- * 
- * sortHand, to sort the cards
- * distinctValues, to get distinct values of integers in an array
- * removeDuplicateElem, remove duplicates elements in an array
- * pairValues, get the values of pair in the array
- * threesValues, get the values of three of a kind in the array
- * calculateMostDuplicates, gives an integer of the values that is most
- * duplicated in the array.
- * 
- * The public methods are the usual hand combinations in poker.
- * 
- * Public method contains:
- * 
- * hasPair, check if there's a pair in the hand.
- * hasTwoPair, check if there's two distinct pair in the hand.
- * hasThreeOfAKind, check if there's three similar value card in the hand.
- * hasStraight, check if there'a straight in the hand.
- * hasFlush, check if there's a flush in the hand.
- * hasFullHouse, check if there's a full house in the hand.
- * hasFourOfAKind, check if there's four of a kind in the hand.
- * hasStraightFlush, check if there's a straight flush in the hand.
- */
 public class PokerHandEvaluator {
 	//instance variable
 	final static int MAX_HAND = 5;
