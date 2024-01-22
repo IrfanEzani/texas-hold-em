@@ -1,4 +1,4 @@
-# README for CMSC 131 Project 5: Poker Simulator
+# Texas Hold 'Em Poker Simulator
 
 ## Project Overview
 Game simulation of the Texas Hold 'Em poker, integration with a Java graphical user interface and simplem implementation of the game's infrastructure.
